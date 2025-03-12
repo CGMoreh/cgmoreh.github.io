@@ -396,7 +396,7 @@
     "href": "talks/2503-BreakDeal/index.html#two",
     "title": "Chris Moreh",
     "section": "Two",
-    "text": "Two"
+    "text": "Two\n\n## Testing code block\n\n1 + 2\n\n[1] 3"
   },
   {
     "objectID": "talks/2503-BreakDeal/index.html#three",
@@ -450,6 +450,69 @@
   {
     "objectID": "talks/2503-BreakDeal/index.html#ten",
     "href": "talks/2503-BreakDeal/index.html#ten",
+    "title": "Chris Moreh",
+    "section": "Ten",
+    "text": "Ten"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#two",
+    "href": "talks/25-03-TeachOut/index.html#two",
+    "title": "Chris Moreh",
+    "section": "Two",
+    "text": "Two\n\n## Testing code block\n\n1 + 2\n\n[1] 3"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#three",
+    "href": "talks/25-03-TeachOut/index.html#three",
+    "title": "Chris Moreh",
+    "section": "Three",
+    "text": "Three"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#four",
+    "href": "talks/25-03-TeachOut/index.html#four",
+    "title": "Chris Moreh",
+    "section": "Four",
+    "text": "Four"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#five",
+    "href": "talks/25-03-TeachOut/index.html#five",
+    "title": "Chris Moreh",
+    "section": "Five",
+    "text": "Five"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#six",
+    "href": "talks/25-03-TeachOut/index.html#six",
+    "title": "Chris Moreh",
+    "section": "Six",
+    "text": "Six"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#seven",
+    "href": "talks/25-03-TeachOut/index.html#seven",
+    "title": "Chris Moreh",
+    "section": "Seven",
+    "text": "Seven"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#eitght",
+    "href": "talks/25-03-TeachOut/index.html#eitght",
+    "title": "Chris Moreh",
+    "section": "Eitght",
+    "text": "Eitght"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#nine",
+    "href": "talks/25-03-TeachOut/index.html#nine",
+    "title": "Chris Moreh",
+    "section": "Nine",
+    "text": "Nine"
+  },
+  {
+    "objectID": "talks/25-03-TeachOut/index.html#ten",
+    "href": "talks/25-03-TeachOut/index.html#ten",
     "title": "Chris Moreh",
     "section": "Ten",
     "text": "Ten"
