@@ -65,9 +65,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-title-block-banner','listing-execute','listing-engine','listing-_quarto-vars','listing-language','listing-date-format','listing-toc','listing-include-back-link','listing-include-before-body','listing-title','listing-description','listing-start','listing-finish','listing-online','listing-image','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-title-block-banner','listing-lightbox','listing-execute','listing-engine','listing-_quarto-vars','listing-language','listing-date-format','listing-toc','listing-include-back-link','listing-include-before-body','listing-title','listing-description','listing-start','listing-finish','listing-online','listing-image','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-title-block-banner","listing-execute","listing-engine","listing-_quarto-vars","listing-language","listing-date-format","listing-toc","listing-include-back-link","listing-include-before-body","listing-title","listing-description","listing-start","listing-finish","listing-online","listing-image","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-title-block-banner","listing-lightbox","listing-execute","listing-engine","listing-_quarto-vars","listing-language","listing-date-format","listing-toc","listing-include-back-link","listing-include-before-body","listing-title","listing-description","listing-start","listing-finish","listing-online","listing-image","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -350,7 +350,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.chrismoreh\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
