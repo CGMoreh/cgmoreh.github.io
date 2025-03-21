@@ -183,7 +183,11 @@ ul.task-list li input[type="checkbox"] {
       
   </div>
 
-      <div style="text-align: center !important; padding-top:1em">
+  <div>
+    <p style="text-align: center !important;"><b>Moreh</b>, McGhee and Vlachantoni</p>
+  </div>
+
+      <div style="text-align: center !important;">
       <span><i class="ai ai-doi"></i><a href="https://doi.org/10.1177/0197918318809924">10.1177/0197918318809924</a>
       </span>
     </div>
@@ -237,6 +241,7 @@ ul.task-list li input[type="checkbox"] {
   number = {1},
   pages = {147-176},
   date = {2020},
+  url = {https://www.chrismoreh.com/publications/articles/2020-imr/},
   doi = {10.1177/0197918318809924},
   langid = {en},
   abstract = {Intra-EU migrants have traditionally faced few pressures
@@ -353,7 +358,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.chrismoreh\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

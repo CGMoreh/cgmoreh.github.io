@@ -183,7 +183,11 @@ ul.task-list li input[type="checkbox"] {
       
   </div>
 
-      <div style="text-align: center !important; padding-top:1em">
+  <div>
+    <p style="text-align: center !important;">McGhee, <b>Moreh</b> and Vlachantoni</p>
+  </div>
+
+      <div style="text-align: center !important;">
       <span><i class="ai ai-doi"></i><a href="https://doi.org/10.1080/1369183X.2017.1299622">10.1080/1369183X.2017.1299622</a>
       </span>
     </div>
@@ -236,6 +240,7 @@ ul.task-list li input[type="checkbox"] {
   number = {13},
   pages = {2109–2130},
   date = {2017},
+  url = {https://www.chrismoreh.com/publications/articles/2017-jems/},
   doi = {10.1080/1369183X.2017.1299622},
   langid = {en},
   abstract = {This paper reformulates classical questions regarding the
@@ -352,7 +357,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.chrismoreh\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -192,7 +192,11 @@ ul.task-list li input[type="checkbox"] {
       
   </div>
 
-      <div style="text-align: center !important; padding-top:1em">
+  <div>
+    <p style="text-align: center !important;">Troccoli, <b>Moreh</b>, McGhee and Vlachantoni</p>
+  </div>
+
+      <div style="text-align: center !important;">
       <span><i class="ai ai-doi"></i><a href="https://doi.org/10.1080/1369183X.2021.1941820">10.1080/1369183X.2021.1941820</a>
       </span>
     </div>
@@ -247,6 +251,7 @@ ul.task-list li input[type="checkbox"] {
   number = {9},
   pages = {1998-2017},
   date = {2022},
+  url = {https://www.chrismoreh.com/publications/articles/2022-jems/},
   doi = {10.1080/1369183X.2021.1941820},
   langid = {en},
   abstract = {Drawing on a mix-methods study comprised of an online
@@ -371,7 +376,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.chrismoreh\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

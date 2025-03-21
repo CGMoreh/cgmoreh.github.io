@@ -183,7 +183,11 @@ ul.task-list li input[type="checkbox"] {
       
   </div>
 
-      <div style="text-align: center !important; padding-top:1em">
+  <div>
+    <p style="text-align: center !important;">McGhee, <b>Moreh</b> and Vlachantoni</p>
+  </div>
+
+      <div style="text-align: center !important;">
       <span><i class="ai ai-doi"></i><a href="https://doi.org/10.1111/1468-4446.12485">10.1111/1468-4446.12485</a>
       </span>
     </div>
@@ -237,6 +241,7 @@ ul.task-list li input[type="checkbox"] {
   number = {4},
   pages = {1104–1127},
   date = {2019},
+  url = {https://www.chrismoreh.com/publications/articles/2019-bjs/},
   doi = {10.1111/1468-4446.12485},
   langid = {en},
   abstract = {This article examines the narrative strategies through
@@ -359,7 +364,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.chrismoreh\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
